@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e66330ae-ac08-481d-b0a8-4a8dcd6a7ecd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day_06_JUnit/C01_TekrarTesti.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/day_06_JUnit/C02_AramaTesti.java" afterDir="false" />
+    <list default="true" id="e66330ae-ac08-481d-b0a8-4a8dcd6a7ecd" name="Changes" comment="Selenium Ders 6 - Tekrar Testi 2">
+      <change afterPath="$PROJECT_DIR$/src/test/java/day_06_JUnit/C03_ilkTestMetodu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/day_06_JUnit/C04_TekSayfadaFarkliTestler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +41,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.C02_AramaTesti">
+  <component name="RunManager" selected="JUnit.C04_TekSayfadaFarkliTestler.Test01">
     <configuration name="C01_TekrarTesti" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day_06_JUnit.C01_TekrarTesti" />
       <module name="com.Batch44JUnit" />
@@ -72,8 +68,58 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C03_ilkTestMetodu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.Batch44JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day_06_JUnit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day_06_JUnit" />
+      <option name="MAIN_CLASS_NAME" value="day_06_JUnit.C03_ilkTestMetodu" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03_ilkTestMetodu.Test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.Batch44JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day_06_JUnit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day_06_JUnit" />
+      <option name="MAIN_CLASS_NAME" value="day_06_JUnit.C03_ilkTestMetodu" />
+      <option name="METHOD_NAME" value="Test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04_TekSayfadaFarkliTestler.Test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.Batch44JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day_06_JUnit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day_06_JUnit" />
+      <option name="MAIN_CLASS_NAME" value="day_06_JUnit.C04_TekSayfadaFarkliTestler" />
+      <option name="METHOD_NAME" value="Test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C04_TekSayfadaFarkliTestler.Test01" />
+        <item itemvalue="JUnit.C03_ilkTestMetodu" />
+        <item itemvalue="JUnit.C03_ilkTestMetodu.Test01" />
         <item itemvalue="Application.C02_AramaTesti" />
         <item itemvalue="Application.C01_TekrarTesti" />
       </list>
@@ -88,6 +134,21 @@
       <option name="presentableId" value="Default" />
       <updated>1667240495565</updated>
     </task>
+    <task id="LOCAL-00001" summary="Selenium Ders 6 - Tekrar Testi 1">
+      <created>1667244003770</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667244003770</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Selenium Ders 6 - Tekrar Testi 2">
+      <created>1667244120210</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667244120210</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,5 +161,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Selenium Ders 6 - Tekrar Testi 1" />
+    <MESSAGE value="Selenium Ders 6 - Tekrar Testi 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium Ders 6 - Tekrar Testi 2" />
   </component>
 </project>
