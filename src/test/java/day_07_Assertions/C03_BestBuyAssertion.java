@@ -29,7 +29,10 @@ public class C03_BestBuyAssertion {
 
         //  a. Sayfa URL'inin https://www.bestbuy.com/ 'a eşit olduğunu test edin.
         String actualURL = driver.getCurrentUrl();
-        String expectedURL = "https://www.bestbuy.com/";
+        System.out.println("actualURL = " + actualURL); //soutv
+        
+        String expectedURL = "https://www.bestbuy1.com/";
+        System.out.println("expectedURL = " + expectedURL); //soutv
 
         //Assert.assertEquals("Tekrar test edilmeli",expectedURL,actualURL);
         Assert.assertEquals(expectedURL,actualURL);
