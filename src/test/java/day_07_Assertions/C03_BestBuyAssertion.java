@@ -13,8 +13,8 @@ public class C03_BestBuyAssertion {
 
     WebDriver driver;
 
-    @BeforeClass
-    public static void setup(){
+    @Before
+    public void setup(){
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -55,8 +55,8 @@ public class C03_BestBuyAssertion {
         Assert.assertTrue(francais.isDisplayed());
     }
 
-    @AfterClass
-    public static void teardown() throws InterruptedException {
+    @After
+    public void teardown() throws InterruptedException {
         Thread.sleep(3000);
         driver.close();
     }
