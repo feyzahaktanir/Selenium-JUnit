@@ -14,7 +14,7 @@ public class C03_BestBuyAssertion {
     WebDriver driver;
 
     @BeforeClass
-    public void setup(){
+    public static void setup(){
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -56,7 +56,7 @@ public class C03_BestBuyAssertion {
     }
 
     @AfterClass
-    public void teardown() throws InterruptedException {
+    public static void teardown() throws InterruptedException {
         Thread.sleep(3000);
         driver.close();
     }
