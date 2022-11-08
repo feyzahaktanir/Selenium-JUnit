@@ -5,7 +5,9 @@ import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
@@ -31,20 +33,29 @@ public class C03_BestBuyAssertion {
         String actualURL = driver.getCurrentUrl();
         System.out.println("actualURL = " + actualURL); //soutv
         
-        String expectedURL = "https://www.bestbuy1.com/";
+        String expectedURL = "https://www.bestbuy.com/";
         System.out.println("expectedURL = " + expectedURL); //soutv
 
-        //Assert.assertEquals("Tekrar test edilmeli",expectedURL,actualURL);
-        Assert.assertEquals(expectedURL,actualURL);
+        Assert.assertEquals("Tekrar test edilmeli",expectedURL,actualURL); //assert fail olursa mesaj döndürür.
+        //Assert.assertEquals(expectedURL,actualURL);
 
         //  b. titleTest => sayfa başlığının "Rest" içermediğini(contains) test edin.
+        String pageTitle = driver.getTitle();
+        System.out.println("pageTitle = " + pageTitle);
 
+        String word = "Rest";
+
+        Assert.assertFalse(pageTitle.contains(word)); //sonuç doğru dönerse test failed olur ve buradan sonrasını çalıştırmaz.
 
         //  c. logoTest => BestBuy logosunun görüntülendiğini test edin.
+        WebElement pageLogo = driver.findElement(By.xpath("(//img[@class='logo'])[1]"));
 
+        Assert.assertTrue(pageLogo.isDisplayed());
 
         //  d. FrancaisLinkTest => Fransızca linkin görüntülendiğini test edin.
+        WebElement francais = driver.findElement(By.xpath("//button[@lang='fr']"));
 
+        Assert.assertTrue(francais.isDisplayed());
     }
 
     @After
