@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e66330ae-ac08-481d-b0a8-4a8dcd6a7ecd" name="Changes" comment="Selenium Ders 7 - JUnit Assertions - 1">
+    <list default="true" id="e66330ae-ac08-481d-b0a8-4a8dcd6a7ecd" name="Changes" comment="Selenium Ders 6 - JUnit Annotations - 2">
       <change afterPath="$PROJECT_DIR$/src/test/java/day_07_Assertions/C04_BestBuyAyriTestler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -26,69 +26,21 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
-  </component>
   <component name="ProjectId" id="2GuZabHE3Nw9PFtU4iagHmDBAST" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "E:/com.Batch44JUnit"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.C03_BestBuyAssertion">
-    <configuration name="C01_CheckBox" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.Batch44JUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day_07_Assertions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day_07_Assertions" />
-      <option name="MAIN_CLASS_NAME" value="day_07_Assertions.C01_CheckBox" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_CheckBox.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.Batch44JUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day_07_Assertions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day_07_Assertions" />
-      <option name="MAIN_CLASS_NAME" value="day_07_Assertions.C01_CheckBox" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C02_RadioButtons" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.Batch44JUnit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day_07_Assertions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="day_07_Assertions" />
-      <option name="MAIN_CLASS_NAME" value="day_07_Assertions.C02_RadioButtons" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="JUnit.C04_BestBuyAyriTestler">
     <configuration name="C03_BestBuyAssertion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.Batch44JUnit" />
       <extension name="coverage">
@@ -104,7 +56,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C03_BestBuyAssertion.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_ilkTestMetodu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.Batch44JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day_06_JUnit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day_06_JUnit" />
+      <option name="MAIN_CLASS_NAME" value="day_06_JUnit.C03_ilkTestMetodu" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C03_ilkTestMetodu.Test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.Batch44JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day_06_JUnit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day_06_JUnit" />
+      <option name="MAIN_CLASS_NAME" value="day_06_JUnit.C03_ilkTestMetodu" />
+      <option name="METHOD_NAME" value="Test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04_BestBuyAyriTestler" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.Batch44JUnit" />
       <extension name="coverage">
         <pattern>
@@ -113,8 +96,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="day_07_Assertions" />
-      <option name="MAIN_CLASS_NAME" value="day_07_Assertions.C03_BestBuyAssertion" />
-      <option name="METHOD_NAME" value="test01" />
+      <option name="MAIN_CLASS_NAME" value="day_07_Assertions.C04_BestBuyAyriTestler" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04_TekSayfadaFarkliTestler.Test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.Batch44JUnit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day_06_JUnit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="day_06_JUnit" />
+      <option name="MAIN_CLASS_NAME" value="day_06_JUnit.C04_TekSayfadaFarkliTestler" />
+      <option name="METHOD_NAME" value="Test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -122,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.C04_BestBuyAyriTestler" />
         <item itemvalue="JUnit.C03_BestBuyAssertion" />
-        <item itemvalue="JUnit.C03_BestBuyAssertion.test01" />
-        <item itemvalue="JUnit.C02_RadioButtons" />
-        <item itemvalue="JUnit.C01_CheckBox" />
-        <item itemvalue="JUnit.C01_CheckBox.test01" />
+        <item itemvalue="JUnit.C04_TekSayfadaFarkliTestler.Test01" />
+        <item itemvalue="JUnit.C03_ilkTestMetodu" />
+        <item itemvalue="JUnit.C03_ilkTestMetodu.Test01" />
       </list>
     </recent_temporary>
   </component>
@@ -153,49 +151,7 @@
       <option name="project" value="LOCAL" />
       <updated>1667244120210</updated>
     </task>
-    <task id="LOCAL-00003" summary="Selenium Ders 6 - JUnit Annotations">
-      <created>1667248515423</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1667248515423</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Selenium Ders 6 - JUnit Annotations - 2">
-      <created>1667248530275</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1667248530275</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Selenium Ders 7 - JUnit CheckBox Test">
-      <created>1667762338824</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1667762338824</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Selenium Ders 7 - JUnit RadioButton Test">
-      <created>1667767416692</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1667767416692</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Selenium Ders 7 - JUnit Assertions - 1">
-      <created>1667769539982</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1667769539982</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Selenium Ders 7 - JUnit Assertions - 1">
-      <created>1667933544058</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1667933544058</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,11 +168,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Selenium Ders 6 - Tekrar Testi 1" />
     <MESSAGE value="Selenium Ders 6 - Tekrar Testi 2" />
-    <MESSAGE value="Selenium Ders 6 - JUnit Annotations" />
-    <MESSAGE value="Selenium Ders 6 - JUnit Annotations - 2" />
-    <MESSAGE value="Selenium Ders 7 - JUnit CheckBox Test" />
-    <MESSAGE value="Selenium Ders 7 - JUnit RadioButton Test" />
-    <MESSAGE value="Selenium Ders 7 - JUnit Assertions - 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Selenium Ders 7 - JUnit Assertions - 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Selenium Ders 6 - Tekrar Testi 2" />
   </component>
 </project>
